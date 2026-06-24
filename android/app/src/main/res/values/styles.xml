@@ -17,6 +17,10 @@
 
 
     <style name="AppTheme.NoActionBarLaunch" parent="Theme.SplashScreen">
+        <!-- Android 12+ : fond navy + icone du lanceur centree par le systeme. -->
+        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="postSplashScreenTheme">@style/AppTheme.NoActionBar</item>
+        <!-- Pre-12 : repli sur le drawable splash (navy + icone, regenere). -->
         <item name="android:background">@drawable/splash</item>
     </style>
 </resources>
