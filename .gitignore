@@ -1,0 +1,13 @@
+# Dépendances
+node_modules/
+
+# Artefacts de build / APK (distribués via les Releases GitHub, pas le dépôt)
+*.apk
+*.aab
+
+# Divers
+.DS_Store
+Thumbs.db
+
+# NB : le projet Android (android/) a son propre .gitignore (build/, .gradle,
+# local.properties, keystore.properties, assets/public, plugins générés…).
