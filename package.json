@@ -1,6 +1,6 @@
 {
   "name": "shopping-assistant-mobile",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "description": "Wrapper Android (Capacitor) de Shopping Assistant — UI embarquée, backend sur le PC en LAN.",
   "scripts": {
